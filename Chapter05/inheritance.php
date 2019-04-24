@@ -32,9 +32,10 @@
   }
 
   // Overriding a Method and Using the Parent Operator -----------------------------------------------------------------
-$object = new Son;
+  $object = new Son;
   $object->test();
   $object->test2();
+  echo "<hr>";
 
   class Dad
   {
@@ -58,7 +59,7 @@ $object = new Son;
   }
 
   // Calling the Parent Class Constructor
-$object = new Tiger();
+  $object = new Tiger();
 
   echo "Tigers have... <br>";
   echo "Fur: " . $object->fur . "<br>";
